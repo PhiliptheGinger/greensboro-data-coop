@@ -5,6 +5,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Greensboro Data Co-op</title>
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #004b23;
+      color: white;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.75rem;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin: 0.5rem 0 0 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      padding: 0.25rem 0.5rem;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background: #006837;
+      border-radius: 4px;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      margin-top: 1rem;
+    }
+    .highlight-edit {
+      color: #cc0000;
+      font-style: italic;
+    }
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -22,8 +80,19 @@
     </nav>
   </header>
   <section data-status="🚧 Under Construction">
-    <h2>Welcome</h2>
-    <p>This is the homepage of the Greensboro Data Co-op.</p>
+    <h2>Welcome to the Greensboro Data Co-op</h2>
+    <p>The Greensboro Data Co-op is a local, community-owned network where neighbors come together to put their data to work — for ourselves, not for corporations. Just like a credit union, but for the digital age.</p>
+
+    <p>We believe that data — like labor and land — can build community wealth when it’s treated with care, transparency, and cooperation. By sharing what we choose, we can build tools that make everyday life easier, fairer, and a little more fun.</p>
+
+    <p>Whether you're tech-savvy or tech-shy, there's a place for you here. From tracking grocery prices to designing bird languages, we believe digital power should belong to *everyone*, not just the billionaires with the biggest servers.</p>
+
+    <h3>What is a Data Co-op?</h3>
+    <p>A data cooperative is a group of people who choose to collect and manage their data — together. Instead of feeding it into corporate silos, we keep it in our hands, and we decide how it gets used: to save money, build tools, inform policy, and uplift our neighbors.</p>
+
+    <p>We're building something new: a people-powered tech platform rooted in mutual aid, economic insight, and real community control. No experience required — just a willingness to participate, learn, and share in the value.</p>
+
+    <p class="highlight-edit">More homepage visuals, calls-to-action, and buttons can go here.</p>
   </section>
 </body>
 </html>
